@@ -1,0 +1,53 @@
+.abt-context {
+    max-width: 400ch;
+    min-width: 50%;
+}
+
+nav ul li:hover {
+    border-bottom: solid 2px #FEB316;
+}
+
+
+
+
+header {
+    border-bottom: solid 1px #ffffff70;
+    /* position: static; */
+}
+
+.hero-btn-1:hover {
+    border: solid 2px #fff;
+}
+
+body{
+    min-width: 300px;
+    height: 100vh;
+}
+.hero-btn-2:hover {
+    border: solid 2px #FEB316;
+    
+}
+
+.features-div {
+    border: solid 2px #d3a0a070;
+}
+
+.card-img{
+    /* background: url(/images/past-papers.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    
+}
+
+.testimonial-card {
+    transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-8px);
+}
+
+.news-div {
+    background-size: 100% 100%;
+}

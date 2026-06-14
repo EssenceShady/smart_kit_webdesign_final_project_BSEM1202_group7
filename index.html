@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Kit-home</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="m-auto">
+    <!-- Hero Section -->
+    <div class="hero-section text-white bg-[#010912]">
+        <header class="flex justify-between items-center px-4 md:px-8 py-3 max-w-8xl mx-auto">
+
+            <!-- Logo -->
+            <div>
+                <h4 class="text-4xl md:text-4xl font-bold ">
+                    SMART<span class="text-[#FEB316]">KIT</span>
+                </h4>
+
+                <p class="text-xs text-gray-400 text-center">
+                    Learn Today, Lead Tomorrow
+                </p>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden lg:block">
+                <ul class="flex gap-6 items-center">
+
+                    <li>
+                        <a href="#"
+                            class="hover:text-[#FEB316]">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="hover:text-[#FEB316] transition">
+                            News & Updates
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="hover:text-[#FEB316] transition">
+                            Past Papers
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="hover:text-[#FEB316] transition">
+                            Shop Books
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="hover:text-[#FEB316] transition">
+                            Result Checker
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="hover:text-[#FEB316] transition">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                            class="hover:text-[#FEB316] transition">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <!-- Desktop Login -->
+            <button type="button" class="hidden lg:block bg-[#FEB316] text-white font-semibold px-8 py-2 rounded-md hover:bg-yellow-400 transition">Log In </button>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-button" class="lg:hidden text-3xl text-[#FEB316]">☰ </button>
+
+        </header>
+        
+        <div id="mobile-menu" class="hidden lg:hidden bg-[#020B18] border-t border-gray-700">
+            <nav>
+                <ul class="flex flex-col gap-2 p-6">
+
+                    <li>
+                        <a href="#" class="block py-3 px-2 hover:text-[#FEB316]">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="block py-3 px-2 hover:text-[#FEB316]">
+                            News & Updates
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="block py-3 px-2 hover:text-[#FEB316]">
+                            Past Papers
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="block py-3 px-2 hover:text-[#FEB316]">
+                            Shop Books
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="block py-3 px-2 hover:text-[#FEB316]">
+                            Result Checker
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="block py-3 px-2 hover:text-[#FEB316]">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="block py-3 px-2 hover:text-[#FEB316]">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-6 px-6 lg:text-lg text-sm   lg:px-20 py-4 "> 
+            <div>
+                <h1 class="text-4xl lg:text-6xl font-bold leading-tight">Your Smart Partner for <span class="text-[#FEB316]">Academic Success</span></h1>
+
+                <p class="mt-6 text-gray-300 leading-relaxed max-w-[70ch]">
+                    Access past papers, educational news, quality books and result checking support all in one place. 
+                </p>
+                <p class=" text-[#FEB316]">Study smarter. Achieve greater.</p>
+
+                <div class="flex gap-6 mt-10  justify-left h-13 text-sm">
+                    <a href="" class="bg-[#FEB316] px-6 py-3 rounded-lg font-semibold hover:scale-110 transition hero-btn-1">Explore Past Papers</a>
+                    <a href="" class=" bg-white text-[#FEB316] px-6 py-3 rounded-lg font-semibold hover:scale-110 transition hero-btn-2">Shop Books</a>
+                </div>
+            </div>
+
+            <!-- hero-img -->
+            <div class="hero-img w-full lg:w-1/2 flex justify-center"><img src="./images/hero-img.png" alt="" class="w-full max-w-md lg:max-w-lg"></div>
+        </div>
+    </div>
+
+    <!-- Main Section -->
+    <main class="px-12 lg:text-lg text-sm m-auto ">
+
+        <!-- About Us Div -->
+        <div class="px-8 pb-20 pt-4 bg-[#E2EDF9] flex flex-col gap-[300px] lg:gap-10">
+            
+            <div class="mb-40 lg:mb-10">
+                <h2 class="lg:text-4xl text-2xl font-bold pl-4 text-[#010912]">About Us</h2>
+                <div class="flex flex-col lg:flex-row  gap-4 items-center lg:justify-between   h-150  mt-5 mb-8">
+                    <div class=" w-full lg:w-1/2 h-full flex justify-center">
+                        <img src="./images/smart-girl-using-laptop.png" alt="" class="abt-img rounded-lg lg:rounded-l-lg lg:rounded-r-[0px] w-full md:w-full  lg:max-w-xl h-full  lg:max-h-lg">
+                    </div>
+                    <div class=" abt-context  w-full lg:w-1/2 ">
+                        <p class="">
+                            Smart Kit is a digital educational platform designed to support students in Sierra Leone by providing easy access to academic resources, examination materials, educational updates, and learning support services through a modern and responsive web platform.
+                            The platform was created to address the challenges many students face when trying to access reliable study materials, past examination papers, educational news, and learning resources.
+                            Smart Kit serves as a centralized hub where students can prepare for examinations, stay informed, and access educational resources anytime and anywhere. Smart Kit is a digital educational platform designed to support students in Sierra Leone by providing easy access to academic resources, examination materials, educational updates, and learning support services through a modern and responsive web platform.
+                            Smart Kit serves as a centralized hub where students
+                        </p>
+                        
+                        <button type="button" class="w-full bg-[#FEB316] py-3 rounded-2xl mt-5">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Why choose smart kit section -->
+            <div class="mt-20 bg-[#010912] py-8 px-2 lg:px-15 mb-10 lg:mt-0 rounded-tl-[100px] rounded-br-[100px]">
+                <h2 class="lg:text-4xl mt-10 text-2xl text-[#FEB316] font-bold text-center">Why Choose Smart Kit </h2>
+
+                <div class="text-white pt-15 py-15 px-4 lg:flex justify-between">
+                    <div class="flex-col m-auto">
+
+                        <!-- Why 1 -->
+                        <div class="flex gap-5 mb-4">
+                            <div class="w-[55px] lg:w-12 pt-2"><img src="./images/icons/mdi_shield-tick.png" alt="" class="lg:w-full w-[55px]"></div> 
+                            <div class="w-110">
+                                <p class="text-[18px] lg:text-2xl font-bold">All in one platform</p>
+                                <p class="text-gray-300">Every material you need for your academic journey.</p>
+                            </div>
+                        </div>
+
+                        <!-- Why 2 -->
+                        <div class="flex gap-5 mb-4">
+                            <div class="w-[55px] lg:w-12 pt-2"><img src="./images/icons/mdi_shield-tick.png" alt="" class="lg:w-full w-[55px]"></div> 
+                            <div class="w-110">
+                                <p class="text-[18px] lg:text-2xl font-bold">Easy to use</p>
+                                <p class="text-gray-300">Simple, clean and user-friendly experience.</p>
+                            </div>
+                        </div>
+
+                        <!-- Why 3 -->
+                        <div class="flex gap-5 mb-4">
+                            <div class="w-[55px] lg:w-12 pt-2"><img src="./images/icons/mdi_shield-tick.png" alt="" class=" lg:w-full"></div> 
+                            <div class="w-110">
+                                <p class="text-[18px] lg:text-2xl font-bold">Always Updated</p>
+                                <p class="text-gray-300">Regularly updated resources and information.</p>
+                            </div>
+                        </div>
+
+                        <!-- Why 4 -->
+                        <div class="flex gap-5 mb-4">
+                            <div class="w-[55px] lg:w-12 pt-2"><img src="./images/icons/mdi_shield-tick.png" alt="" class="w-full lg:w-full"></div> 
+                            <div class="w-110">
+                                <p class="text-[18px] lg:text-2xl font-bold">Accessible Anywhere</p>
+                                <p class="text-gray-300">Access your learning materials anytime, anywhere.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Why choose SK img -->
+                    <div class="bg-yellow-300 lg:w-1/2 w-full"><img src="./images/smart-boy-usinglaptop-smiling.png" alt="" class="w-full"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature Div -->
+        <div class="mt-20 bg-[#E2EDF9] features-div rounded-lg py-6 lg:px-2 lg:mx-10 shadow-lg ">
+            <h2 class="text-[#010912] lg:text-4xl text-2xl font-bold pl-4 text-center">Key Features</h2>
+
+            <div class=" gap-8 py-10 lg:flex-row flex flex-col  justify-center card-div  pt-10">
+                <div class="card-1 lg:w-2/10 h-100">
+                    <div class="card-img w-full h-full bg-[url(./images/past-papers.jpg)] px-3 py-6">
+                        <div class="card-text text-gray-200 flex-col bg-[#b0bbd8ad] mt-10 rounded-2xl  px-2 py-3 pb-12">
+                            <h4 class="text-[32px] lg:text-2xl font-bold font-italic mb-12"><i>Past Papers</i></h4>
+                            <p class="text-[26px]  lg:text-[18px] mb-18">Access past questions from NPSE to IGCSE </p>
+                            <a href="" class="text-[#FEB316] text-[26px]  lg:text-[18px]">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <span class="bg-green-400 lg:h-100 w-full h-1 lg:w-1 rounded-2xl"></span>
+                
+                <div class="card-2 lg:w-2/10 h-100">
+                    <div class="card-img bg-[url(./images/atomic-habits.jpeg)] w-full h-full px-3 py-6">
+                        <div class="card-text text-gray-200 flex-col bg-[#b0bbd8ad] mt-10 rounded-2xl  px-2 py-3 pb-12">
+                            <h4 class="text-[32px] lg:text-2xl font-bold font-italic mb-12">Shop Books</h4>
+                            <p class="text-[26px] mb-18 lg:text-[18px]">Find textbooks, revision guides and more</p>
+                            <a href="" class="text-[#FEB316] text-[26px]  lg:text-[18px]">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <span class="bg-green-400 lg:h-100 lg:w-1 w-full h-1 rounded-2xl"></span>
+                
+                <div class="card-3 lg:w-2/10 h-100">
+                    <div class="card-img bg-[url(./images/result-checker.jpg)] h-full w-full px-3 py-6">
+                        <div class="card-text  text-gray-200 flex-col bg-[#b0bbd8ad] mt-10 rounded-2xl  px-2 py-3 pb-12 ">
+                            <h4 class="text-[32px] lg:text-2xl font-bold font-italic mb-12">Result Checker</h4>
+                            <p class="text-[26px]  mb-18 lg:text-[18px] lg:text-[#E2EDF9]">Your Grades are out? Check Now!</p>
+                            <a href="" class="text-[#FEB316] text-[26px]  lg:text-[18px]">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <span class="bg-green-400 lg:h-100 lg:w-1 w-full h-1 rounded-2xl"></span>
+                
+                <div class="card-4 lg:w-2/10  h-100">
+                    <div class="card-img bg-[url(./images/wassce-girl.jpg)] h-full w-full px-3 py-6">
+                        <div class="card-text text-gray-200 flex-col bg-[#b0bbd8ad] mt-10 rounded-2xl  px-2 py-3 pb-12">
+                            <h4 class="text-[32px] lg:text-2xl font-bold font-italic mb-12">News & Updates</h4>
+                            <p class="text-[26px] lg:text-[18px] mb-18">Get access on all key Educational information</p>
+                            <a href="" class="text-[#FEB316] text-[26px]  lg:text-[18px]">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <!-- News & Update div -->
+        <div class="mt-30 bg-[#DDE8F5] px-6 lg:px-12 py-16 pb-25">
+
+            <div class="flex justify-between items-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-bold text-[#1F2937]">
+                    News & Updates
+                </h2>
+
+                <a href="" class="font-bold hover:text-[#FEB316] transition">
+                    View all
+                </a>
+            </div>
+
+            <div class="flex flex-col gap-16">
+
+                <!-- NEWS 1 -->
+                <div class="flex flex-col lg:flex-row gap-8 items-center">
+
+                    <div class="w-full lg:w-1/2 h-[300px] rounded-lg bg-cover bg-center shadow-lg" style="background-image:url('./images/wassce-main.jpg');">
+                    </div>
+
+                    <div class="w-full lg:w-1/2">
+
+                        <div
+                            class="inline-block bg-[#FEB316] px-3 py-1 rounded-md mb-4">
+                            <p class="font-bold text-sm">WASSCE</p>
+                        </div>
+
+                        <h3 class="text-2xl font-bold mb-3">
+                            The 2026 WASSCE Is Ongoing
+                        </h3>
+
+                        <p class="text-gray-700 leading-relaxed">
+                            WAEC is closely monitoring every process to ensure that
+                            the exams go on smoothly. SS3 students are expected
+                            to have already covered the syllabus in preparation
+                            for the examination.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- NEWS 2 -->
+                <div class="flex flex-col lg:flex-row-reverse gap-8 items-center">
+
+                    <div
+                        class="w-full lg:w-1/2 h-[300px] rounded-lg bg-cover bg-center shadow-lg"
+                        style="background-image:url('./images/student-1.png');">
+                    </div>
+
+                    <div class="w-full lg:w-1/2">
+
+                        <div
+                            class="inline-block bg-green-500 px-3 py-1 rounded-md mb-4">
+                            <p class="font-bold text-sm text-white">
+                                Scholarships
+                            </p>
+                        </div>
+
+                        <h3 class="text-2xl font-bold mb-3">
+                            Scholarship Opportunity for Students
+                        </h3>
+
+                        <p class="text-gray-700 leading-relaxed">
+                            Apply for the National Scholarship Program and stand
+                            a chance to complete or further your studies abroad.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- NEWS 3 -->
+                <div class="flex flex-col lg:flex-row gap-8 items-center">
+
+                    <div
+                        class="w-full lg:w-1/2 h-[300px] rounded-lg bg-cover bg-center shadow-lg"
+                        style="background-image:url('./images/npse.jpg');">
+                    </div>
+
+                    <div class="w-full lg:w-1/2">
+
+                        <div
+                            class="inline-block bg-[#1E293B] px-6 py-1 rounded-md mb-4">
+                            <p class="font-bold text-sm text-[#FEB316]">
+                                BECE
+                            </p>
+                        </div>
+
+                        <h3 class="text-2xl font-bold mb-3">
+                            BECE 2026 Registration
+                        </h3>
+
+                        <p class="text-gray-700 leading-relaxed">
+                            Find out the complete registration process and
+                            requirements for BECE 2026.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- What Our Students Say Section -->
+        <div class="py-20 px-6 lg:px-12 bg-white">
+
+            <div class="max-w-7xl mx-auto">
+
+                <!-- Heading -->
+                <h2 class="text-2xl lg:text-4xl font-bold text-center text-[#1F2937] mb-12">
+                    What Our Students Say
+                </h2>
+
+                <!-- Testimonials -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <!-- Comment 1 -->
+                    <div class="testimonial-card bg-gray-50 rounded-xl p-6 shadow-md">
+
+                        <div class="flex flex-col items-center text-center">
+
+                            <img
+                                src="./images/smart-boy-usinglaptop-smiling.png"
+                                alt="Testimonial Img"
+                                class="w-25 h-25 rounded-full object-cover border-4 border-[#FEB316] mb-4">
+
+                            <p class="text-gray-600 leading-relaxed mb-4">
+                                Smart Kit has made it easy for me to access past papers.
+                                It's my go-to platform for exam preparation.
+                            </p>
+
+                            <p class="font-bold text-[#1F2937]">
+                                Shadrach Sesay
+                            </p>
+
+                            <p class="text-sm text-gray-500">
+                                WASSCE Candidate
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Comment 2 -->
+                    <div class="testimonial-card bg-gray-50 rounded-xl p-6 shadow-md">
+
+                        <div class="flex flex-col items-center text-center">
+
+                            <img
+                                src="./images/smart-boy-usinglaptop-smiling.png"
+                                alt="Testimonial Img"
+                                class="w-25 h-25 rounded-full object-cover border-4 border-[#FEB316] mb-4">
+
+                            <p class="text-gray-600 leading-relaxed mb-4">
+                                Smart Kit helped me discover educational resources and 
+                                books that improved my academic performance.
+                            </p>
+
+                            <p class="font-bold text-[#1F2937]">
+                                Fatmata Kamara
+                            </p>
+
+                            <p class="text-sm text-gray-500">
+                                BECE Candidate
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Comment 3 -->
+                    <div class="testimonial-card bg-gray-50 rounded-xl p-6 shadow-md">
+
+                        <div class="flex flex-col items-center text-center">
+
+                            <img
+                                src="./images/smart-boy-usinglaptop-smiling.png"
+                                alt="Testimonial Img"
+                                class="w-25 h-25 rounded-full object-cover border-4 border-[#FEB316] mb-4">
+
+                            <p class="text-gray-600 leading-relaxed mb-4">
+                                The result checker and past question library saved me
+                                a lot of time during exam preparation.
+                            </p>
+
+                            <p class="font-bold text-[#1F2937]">
+                                Mohammed Bangura
+                            </p>
+
+                            <p class="text-sm text-gray-500">
+                                NPSE Candidate
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- View More Button -->
+                <!-- <div class="flex justify-center mt-12">
+
+                    <button
+                        type="button"
+                        class="bg-[#1B2440] text-[#FEB316] px-8 py-3 rounded-full font-semibold hover:bg-[#FEB316] hover:text-black transition duration-300">
+
+                        View More
+
+                    </button>
+
+                </div> -->
+
+                <!-- Statistics -->
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-20 text-center">
+
+                    <div>
+
+                        <p class="text-4xl lg:text-5xl font-bold text-[#1F2937]">
+                            10,000<span class="text-[#FEB316]">+</span>
+                        </p>
+
+                        <p class="text-gray-600 font-semibold mt-2">
+                            Students Helped
+                        </p>
+
+                    </div>
+
+                    <div>
+
+                        <p class="text-4xl lg:text-5xl font-bold text-[#1F2937]">
+                            550<span class="text-[#1F2937]">+</span>
+                        </p>
+
+                        <p class="text-gray-600 font-semibold mt-2">
+                            Past Papers Available
+                        </p>
+
+                    </div>
+
+                    <div>
+
+                        <p class="text-4xl lg:text-5xl font-bold text-[#1F2937]">
+                            230<span class="text-[#FEB316]">+</span>
+                        </p>
+
+                        <p class="text-gray-600 font-semibold mt-2">
+                            Books & Resources
+                        </p>
+
+                    </div>
+
+                    <div>
+
+                        <p class="text-4xl lg:text-5xl font-bold text-[#1F2937]">
+                            98%
+                        </p>
+
+                        <p class="text-gray-600 font-semibold mt-2">
+                            Student Satisfaction
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+    </main>
+    
+    <footer class="bg-blue-400 ">
+        <!-- Newsletter div-->
+        <div class="bg-[url(./images/new-letter.png)] lg:h-90 md:h-90 h-110 w-full px-12 py-8 news-div flex flex-col-1 lg:flex mb-10">
+            <div class="">
+                <h2 class="text-2xl lg:text-4xl font-bold text-[#1F2937] mb-12">Subscribe Our Newsletter</h2>
+                <p class="text-white lg:mb-10 mb-15">Get educational updates and resources you need from Smart Kit delivered <br> directly to your inbox.</p>
+    
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-5 h-1">
+                    <input type="text" placeholder="Type here text" class="bg-[#FEB316] px-5 py-3 w lg:w-150 rounded-lg text-white" />
+                    <button class="text-gray-400 bg-[#010912] py-2 px-8 rounded-lg ">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <!-- Smart Kit context  -->
+            <div>
+                <div>
+                    <h4>SMART KIT</h4>
+                    <p>Learn Today, Lead Tomorrow</p>
+                </div>
+
+                <p>Smart Kit is a digital educational platform dedicated to empowering students in Sierra Leone with quality learning resources and examination support</p>
+            </div>
+
+            <div class="footer-info">
+                <h4>Quick Links</h4>
+
+                <div>
+                    <p>Home</p>
+                    <p>News & Updates</p>
+                    <p>Past Papers</p>
+                    <p>Shop Books</p>
+                    <p>Result Checker</p>
+                </div> 
+            </div>
+
+            <div class="footer-info">
+                <h4>Resources</h4>
+
+                <div>
+                    <p>Exam Timetable</p>
+                    <p>Study Tips</p>
+                    <p>Scholarship</p>
+                    <p>Downloads</p>
+                    <p>FAQ</p>
+                </div> 
+            </div>
+
+            <div class="footer-info">
+                <h4>Support</h4>
+
+                <div>
+                    <p>About Us</p>
+                    <p>Contact Us</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms of Use</p>
+                </div> 
+            </div>
+
+            <div class="footer-info">
+                <h4>Contact Us</h4>
+
+                <div>
+                    <p class="flex gap-1 h-6 "><img src="./images/icons/whatsapp.svg" alt="">+232 78448805</p>
+                    <p class="flex gap-1 h-6 "><img src="./images/icons/geo-alt-fill.svg" alt="">Freetown, Sierra Leone</p>
+                    <p class="flex gap-1 h-6 "><img src="./images/icons/facebook (1).svg" alt="">FaceBook</p>
+                    <p class="flex gap-1 h-6"><img src="./images/icons/envelope-at-fill.svg" alt="">Email</p>
+                    <p class="flex gap-1 h-6"><img src="./images/icons/linkedin.svg" alt="">Linkedin</p>
+                    <p class="flex gap-1 h-6"><img src="./images/icons/twitter-x.svg" alt="">Twitter</p>
+                </div> 
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        const menuBtn = document.getElementById("menu-button");
+
+        const mobileMenu =
+        document.getElementById("mobile-menu");
+
+        menuBtn.addEventListener("click", () => {
+
+            mobileMenu.classList.toggle("hidden");
+
+        });
+    </script>
+</body>
+</html>
