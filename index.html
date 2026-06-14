@@ -507,7 +507,7 @@
 
                     <div>
 
-                        <p class="text-4xl lg:text-5xl font-bold text-[#1F2937]">
+                        <p class="text-2xl lg:text-5xl font-bold text-[#1F2937]">
                             10,000<span class="text-[#FEB316]">+</span>
                         </p>
 
@@ -519,7 +519,7 @@
 
                     <div>
 
-                        <p class="text-4xl lg:text-5xl font-bold text-[#1F2937]">
+                        <p class="text-2xl lg:text-5xl font-bold text-[#1F2937]">
                             550<span class="text-[#1F2937]">+</span>
                         </p>
 
@@ -531,7 +531,7 @@
 
                     <div>
 
-                        <p class="text-4xl lg:text-5xl font-bold text-[#1F2937]">
+                        <p class="text-2xl lg:text-5xl font-bold text-[#1F2937]">
                             230<span class="text-[#FEB316]">+</span>
                         </p>
 
@@ -543,7 +543,7 @@
 
                     <div>
 
-                        <p class="text-4xl lg:text-5xl font-bold text-[#1F2937]">
+                        <p class="text-2xl lg:text-5xl font-bold text-[#1F2937]">
                             98%
                         </p>
 
@@ -564,19 +564,19 @@
     
     <footer class="bg-blue-400 ">
         <!-- Newsletter div-->
-        <div class="bg-[url(./images/new-letter.png)] lg:h-90 md:h-90 h-110 w-full px-12 py-8 news-div flex flex-col-1 lg:flex mb-10">
-            <div class="">
-                <h2 class="text-2xl lg:text-4xl font-bold text-[#1F2937] mb-12">Subscribe Our Newsletter</h2>
-                <p class="text-white lg:mb-10 mb-15">Get educational updates and resources you need from Smart Kit delivered <br> directly to your inbox.</p>
+        <div class="bg-[url(./images/new-letter.png)] lg:h-90 md:h-90 h-110 w-full px-12 py-12 news-div flex flex-col lg:flex-row mb-10">
+            <div>
+                <h2 class="text-4xl lg:text-5xl font-bold text-[#FEB316]  mb-6 lg:text-[#FEB316]">Subscribe Our Newsletter</h2>
+                <p class="text-gray-200 lg:mb-10 mb-15 shadow-5xl text-md max-w-2xl leading-relaxed">Get educational updates and resources you need from Smart Kit delivered directly to your inbox.</p>
     
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-5 h-1">
-                    <input type="text" placeholder="Type here text" class="bg-[#FEB316] px-5 py-3 w lg:w-150 rounded-lg text-white" />
-                    <button class="text-gray-400 bg-[#010912] py-2 px-8 rounded-lg ">Subscribe</button>
-                </div>
+                <form class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-5">
+                    <input type="email" name="email" required placeholder="Enter your email address" class="bg-[#FEB316] text-md px-5 py-3 w lg:w-150 rounded-lg text-white placeholder-white" />
+                    <button type="submit" class="text-md text-gray-300 bg-[#010912] py-2 px-8 rounded-lg lg:w-40 hover:text-white hover:border-2 transition">Subscribe</button>
+                </form>
             </div>
         </div>
 
-        <div>
+        <div class="footer-div">
             <!-- Smart Kit context  -->
             <div>
                 <div>
@@ -648,6 +648,20 @@
 
             mobileMenu.classList.toggle("hidden");
 
+        });
+
+        const form = document.querySelector("form");
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const email = form.email.value;
+
+            if(email) {
+                alert(`Thank you for subscribing, ${email}.`);
+
+                form.reset();
+            }
         });
     </script>
 </body>
