@@ -36,9 +36,11 @@ body{
     /* background: url(/images/past-papers.jpg); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
+    
+    
     
 }
+
 
 .testimonial-card {
     transition: all 0.3s ease;
