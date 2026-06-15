@@ -1,6 +1,6 @@
 .abt-context {
-    max-width: 400ch;
-    min-width: 50%;
+    max-width: 700px;
+    /* min-width: 50%; */
 }
 
 nav ul li:hover {
@@ -78,4 +78,12 @@ body{
 
 .news-text {
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.footer-info p {
+    transition: all 0.3s ease;
+}
+
+.footer-info p:hover {
+    transform: translateX(5px);
 }
