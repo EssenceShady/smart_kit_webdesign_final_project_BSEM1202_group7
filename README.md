@@ -125,7 +125,7 @@ Lead Developer & Project Coordinator
 
 Co-Developer
 
-### Fatmata Shaw
+### Fatmata BF Cotech
 
 Research & Documentation Specialist
 
