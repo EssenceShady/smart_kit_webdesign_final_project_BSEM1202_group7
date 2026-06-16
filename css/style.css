@@ -86,3 +86,20 @@ body{
 .footer-info p:hover {
     transform: translateX(5px);
 }
+
+.team-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(1, 9, 18, 0.55);
+}
+
+.team-card-content {
+    position: relative;
+    z-index: 2;
+}
