@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Kit-home</title>
+    <title>Home -Smart Kit</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
@@ -29,39 +29,28 @@
                 <ul class="flex gap-6 items-center">
 
                     <li>
-                        <a href="#"
-                            class="hover:text-[#FEB316]">
+                        <a href="/index.html" class="hover:text-[#FEB316]">
                             Home
                         </a>
                     </li>
 
                     <li>
-                        <a href="#"
-                            class="hover:text-[#FEB316] transition">
+                        <a href="/pages/news_update.html" class="hover:text-[#FEB316] transition">
                             News & Updates
                         </a>
                     </li>
 
                     <li>
-                        <a href="#"
-                            class="hover:text-[#FEB316] transition">
-                            Past Papers
-                        </a>
+                        <a href="/pages/past_papers.html"class="hover:text-[#FEB316] transition">Past Papers</a>
+                    </li>
+
+                    <!-- <li>
+                        <a href="#" class="hover:text-[#FEB316] transition">Shop Books</a>
                     </li>
 
                     <li>
-                        <a href="#"
-                            class="hover:text-[#FEB316] transition">
-                            Shop Books
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#"
-                            class="hover:text-[#FEB316] transition">
-                            Result Checker
-                        </a>
-                    </li>
+                        <a href="#" class="hover:text-[#FEB316] transition">Result Checker</a>
+                    </li> --> 
 
                     <li>
                         <a href="#"
@@ -81,7 +70,7 @@
             </nav>
 
             <!-- Desktop Login -->
-            <button type="button" class="hidden lg:block bg-[#FEB316] text-white font-semibold px-8 py-2 rounded-md hover:bg-yellow-400 transition">Log In </button>
+            <!-- <button type="button" class="hidden lg:block bg-[#FEB316] text-white font-semibold px-8 py-2 rounded-md hover:bg-yellow-400 transition">Log In </button> -->
 
             <!-- Mobile Menu Button -->
             <button id="menu-button" class="lg:hidden text-3xl text-[#FEB316]">☰ </button>
@@ -93,24 +82,24 @@
                 <ul class="flex flex-col gap-2 p-6">
 
                     <li>
-                        <a href="#" class="block py-3 px-2 hover:text-[#FEB316]">
+                        <a href="/index.html" class="block py-3 px-2 hover:text-[#FEB316]">
                             Home
                         </a>
                     </li>
 
                     <li>
-                        <a href="#" class="block py-3 px-2 hover:text-[#FEB316]">
+                        <a href="/pages/news_update.html" class="block py-3 px-2 hover:text-[#FEB316]">
                             News & Updates
                         </a>
                     </li>
 
                     <li>
-                        <a href="#" class="block py-3 px-2 hover:text-[#FEB316]">
+                        <a href="/pages/past_papers.html" class="block py-3 px-2 hover:text-[#FEB316]">
                             Past Papers
                         </a>
                     </li>
 
-                    <li>
+                    <!-- <li>
                         <a href="#" class="block py-3 px-2 hover:text-[#FEB316]">
                             Shop Books
                         </a>
@@ -120,7 +109,7 @@
                         <a href="#" class="block py-3 px-2 hover:text-[#FEB316]">
                             Result Checker
                         </a>
-                    </li>
+                    </li> -->
 
                     <li>
                         <a href="#" class="block py-3 px-2 hover:text-[#FEB316]">
@@ -294,7 +283,7 @@
                     News & Updates
                 </h2>
 
-                <a href="" class="font-bold hover:text-[#FEB316] transition">
+                <a href="./pages/news_update.html" class="font-bold hover:text-[#FEB316] transition">
                     View all
                 </a>
             </div>
@@ -562,19 +551,19 @@
         
     </main>
     
-    <footer class="bg-blue-400 ">
-        <!-- Newsletter div-->
-        <div class="bg-[url(./images/new-letter.png)] lg:h-90 md:h-90 h-110 w-full px-12 py-12 news-div flex flex-col lg:flex-row mb-10">
-            <div>
-                <h2 class="text-4xl lg:text-5xl font-bold text-[#FEB316]  mb-6 lg:text-[#FEB316]">Subscribe Our Newsletter</h2>
-                <p class="text-gray-200 lg:mb-10 mb-15 shadow-5xl text-md max-w-2xl leading-relaxed">Get educational updates and resources you need from Smart Kit delivered directly to your inbox.</p>
-    
-                <form class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-5">
-                    <input type="email" name="email" required placeholder="Enter your email address" class="bg-[#FEB316] text-md px-5 py-3 w lg:w-150 rounded-lg text-white placeholder-white" />
-                    <button type="submit" class="text-md text-gray-300 bg-[#010912] py-2 px-8 rounded-lg lg:w-40 hover:text-white hover:border-2 transition">Subscribe</button>
-                </form>
-            </div>
+    <!-- Newsletter div-->
+    <div class="bg-[url(./images/new-letter.png)] lg:h-90 md:h-90 h-110 w-full px-12 py-12 news-div flex flex-col lg:flex-row ">
+        <div>
+            <h2 class="text-4xl lg:text-5xl font-bold text-[#FEB316]  mb-6 lg:text-[#FEB316]">Subscribe Our Newsletter</h2>
+            <p class="text-gray-200 lg:mb-10 mb-15 shadow-5xl text-md max-w-2xl leading-relaxed">Get educational updates and resources you need from Smart Kit delivered directly to your inbox.</p>
+
+            <form class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-5">
+                <input type="email" name="email" required placeholder="Enter your email address" class="bg-[#FEB316] text-md px-5 py-3 w lg:w-150 rounded-lg text-white placeholder-white" />
+                <button type="submit" class="text-md text-gray-300 bg-[#010912] py-2 px-8 rounded-lg lg:w-40 hover:text-white hover:border-2 transition">Subscribe</button>
+            </form>
         </div>
+    </div>
+    <footer class="bg-blue-400 ">
 
         <!-- Footer Section -->
         <div class="footer-div bg-[#010912] text-white px-8 lg:px-12 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 ">
