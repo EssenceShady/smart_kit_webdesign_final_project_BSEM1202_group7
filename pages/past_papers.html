@@ -1,467 +1,387 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Past Papers - Smart Kit</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Past Papers - Smart Kit</title>
 
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
 
-<body class="bg-gray-200 m-auto">
+    <body class="bg-gray-200 m-auto">
 
-    <div class="hero-section text-white bg-[#010912]">
-        <header class="flex justify-between items-center px-4 md:px-8 py-3 max-w-8xl mx-auto">
+        <div class="hero-section text-white bg-[#010912]">
+            <header class="flex justify-between items-center px-4 md:px-8 py-3 max-w-8xl mx-auto">
 
-            <!-- Logo -->
-            <div>
-                <a href="../index.html" class="text-4xl md:text-4xl font-bold ">
-                    SMART<span class="text-[#FEB316]">KIT</span>
-                </a>
+                <!-- Logo -->
+                <div>
+                    <a href="../index.html" class="text-4xl md:text-4xl font-bold ">
+                        SMART<span class="text-[#FEB316]">KIT</span>
+                    </a>
 
-                <p class="text-xs text-gray-400 text-center">
-                    Learn Today, Lead Tomorrow
-                </p>
-            </div>
+                    <p class="text-xs text-gray-400 text-center">
+                        Learn Today, Lead Tomorrow
+                    </p>
+                </div>
 
-            <!-- Desktop Navigation -->
-            <nav class="hidden lg:block">
-                <ul class="flex gap-6 items-center">
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:block">
+                    <ul class="flex gap-6 items-center">
 
-                    <li>
-                        <a href="../index.html" class="hover:text-[#FEB316]">Home</a>
-                    </li>
+                        <li>
+                            <a href="../index.html" class="hover:text-[#FEB316]">Home</a>
+                        </li>
 
-                    <li>
-                        <a href="./news_update.html" class="hover:text-[#FEB316] transition">News & Updates</a>
-                    </li>
+                        <li>
+                            <a href="./news_update.html" class="hover:text-[#FEB316] transition">News & Updates</a>
+                        </li>
 
-                    <li>
-                        <a href="./past_papers.html" class="hover:text-[#FEB316] transition">Past Papers</a>
-                    </li>
+                        <li>
+                            <a href="./past_papers.html" class="hover:text-[#FEB316] transition">Past Papers</a>
+                        </li>
 
-                    <!-- <li>
-                        <a href=""
-                            class="hover:text-[#FEB316] transition">
-                            Shop Books
-                        </a>
-                    </li>
+                        <!-- <li>
+                            <a href=""
+                                class="hover:text-[#FEB316] transition">
+                                Shop Books
+                            </a>
+                        </li>
 
-                    <li>
-                        <a href=""
-                            class="hover:text-[#FEB316] transition">
-                            Result Checker
-                        </a>
-                    </li> -->
+                        <li>
+                            <a href=""
+                                class="hover:text-[#FEB316] transition">
+                                Result Checker
+                            </a>
+                        </li> -->
 
-                    <li>
-                        <a href="./aboutus.html"
-                            class="hover:text-[#FEB316] transition">
-                            About Us
-                        </a>
-                    </li>
+                        <li>
+                            <a href="./aboutus.html"
+                                class="hover:text-[#FEB316] transition">
+                                About Us
+                            </a>
+                        </li>
 
-                    <li>
-                        <a href="./contacts.html" class="hover:text-[#FEB316] transition">
-                            Contact
-                        </a>
-                    </li>
+                        <li>
+                            <a href="./contacts.html" class="hover:text-[#FEB316] transition">
+                                Contact
+                            </a>
+                        </li>
 
-                </ul>
-            </nav>
-
-            
-            <!-- Mobile Menu Button -->
-            <button id="menu-button" class="lg:hidden text-3xl text-[#FEB316]">☰ </button>
-
-        </header>
-        
-        <div id="mobile-menu" class="hidden lg:hidden bg-[#020B18] border-t border-gray-700">
-            <nav>
-                <ul class="flex flex-col gap-2 p-6">
-
-                    <li>
-                        <a href="../index.html" class="block py-3 px-2 hover:text-[#FEB316]">
-                            Home
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="./news_update.html" class="block py-3 px-2 hover:text-[#FEB316]">
-                            News & Updates
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="./past_papers.html" class="block py-3 px-2 hover:text-[#FEB316]">
-                            Past Papers
-                        </a>
-                    </li>
+                    </ul>
+                </nav>
 
                 
-                    <li>
-                        <a href="./aboutus.html" class="block py-3 px-2 hover:text-[#FEB316]">
-                            About Us
-                        </a>
-                    </li>
+                <!-- Mobile Menu Button -->
+                <button id="menu-button" class="lg:hidden text-3xl text-[#FEB316]">☰ </button>
 
-                    <li>
-                        <a href="./contacts.html" class="block py-3 px-2 hover:text-[#FEB316]">
-                            Contact
-                        </a>
-                    </li>
+            </header>
+            
+            <div id="mobile-menu" class="hidden lg:hidden bg-[#020B18] border-t border-gray-700">
+                <nav>
+                    <ul class="flex flex-col gap-2 p-6">
 
-                </ul>
-            </nav>
+                        <li>
+                            <a href="../index.html" class="block py-3 px-2 hover:text-[#FEB316]">
+                                Home
+                            </a>
+                        </li>
 
-        </div>
+                        <li>
+                            <a href="./news_update.html" class="block py-3 px-2 hover:text-[#FEB316]">
+                                News & Updates
+                            </a>
+                        </li>
 
-        <!-- Past Paper Hero -->
-        <div class="flex flex-col lg:flex-row items-center justify-between gap-6 px-6 lg:text-lg text-sm   lg:px-20 py-10 pt-20 lg:py-50 "> 
-            <div class="max-w-7xl mx-auto text-center">
-    
-                <h1 class="text-4xl lg:text-6xl font-bold text-white mb-6">
-                    Past Examination Papers
-                </h1>
-    
-                <p class="text-gray-300 text-lg max-w-3xl mx-auto mb-8">
-                    Access and download NPSE, BECE and WASSCE past papers to strengthen your preparation and boost your examination success.
-                </p>
-    
-            </div>
-    
-        </div>
-    </div>
+                        <li>
+                            <a href="./past_papers.html" class="block py-3 px-2 hover:text-[#FEB316]">
+                                Past Papers
+                            </a>
+                        </li>
 
-    <main>
+                    
+                        <li>
+                            <a href="./aboutus.html" class="block py-3 px-2 hover:text-[#FEB316]">
+                                About Us
+                            </a>
+                        </li>
 
-        <!-- Search Div -->
-        <div class="px-6 md:px-10 py-12">
+                        <li>
+                            <a href="./contacts.html" class="block py-3 px-2 hover:text-[#FEB316]">
+                                Contact
+                            </a>
+                        </li>
 
-            <div class="max-w-5xl mx-auto">
-
-                <div class="bg-gray-100 shadow-lg rounded-xl p-6 flex flex-col lg:flex-row gap-4">
-
-                    <input
-                        type="search"
-                        placeholder="Search subject or year..."
-                        id="searchInput"
-                        class="border border-gray-300 rounded-lg px-5 py-3 w-full focus:outline-none focus:border-[#FEB316]">
-
-                    <button class="bg-[#FEB316] px-8 py-3 rounded-lg font-semibold">
-                        Search
-                    </button>
-
-                </div>
+                    </ul>
+                </nav>
 
             </div>
 
-        </div>
-
-
-        <!-- Past Papers Div
-        <div class="px-6 md:px-10 py-10">
-
-            <div class="max-w-7xl mx-auto">
-
-                <h2 class="text-4xl font-bold text-center mb-12">
-                    Available Papers
-                </h2>
-
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-                    <div class="bg-white rounded-xl shadow-md p-6 hover:-translate-y-1 transition h-50">
-                        <h3 class="text-2xl font-bold mb-2">Agricultural Science 2</h3>
-                        <p class="text-gray-500 mb-4">WASSCE • Nov 2011</p>
-
-                        <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-4">
-                            <a href="/past-papers-pdfs/waec-agricultural-science-november-2011-paper2.pdf" target="_self" class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold text-center hover:border-2 hover:border-[#010912]">View PDF</a>
-                            <a href="/past-papers-pdfs/waec-agricultural-science-november-2011-paper2.pdf" download class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold hover:border-2 text-center hover:border-[#010912]">Download PDF</a>
-                        </div>
-                    </div>
-                    
-                    <div class="bg-white rounded-xl shadow-md p-6 hover:-translate-y-1 transition h-50">
-                        <h3 class="text-2xl font-bold mb-2">Chemistry2</h3>
-                        <p class="text-gray-500 mb-4">WASSCE • Nov2000</p>
-                        
-                        <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-4">
-                            <a href="/past-papers-pdfs/waec_Chemistry2_November_2000.pdf" target="_self" class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold text-center hover:border-2 hover:border-[#010912]">View PDF</a>
-                            <a href="/past-papers-pdfs/waec-agricultural-science-november-2011-paper2.pdf" download class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold hover:border-2 text-center hover:border-[#010912]">Download PDF</a>
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-xl shadow-md p-6 hover:-translate-y-1 transition h-50">
-                        <h3 class="text-2xl font-bold mb-2">Science</h3>
-                        <p class="text-gray-500 mb-4">NPSE • 2025</p>
-
-                        <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-4">
-                            <a href="/past-papers-pdfs/waec_Chemistry2_November_2000.pdf" target="_self" class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold text-center hover:border-2 hover:border-[#010912]">View PDF</a>
-                            <a href="/past-papers-pdfs/waec-agricultural-science-november-2011-paper2.pdf" download class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold hover:border-2 text-center hover:border-[#010912]">Download PDF</a>
-                        </div>
-                    </div>
-                    
-                    <div class="bg-white rounded-xl shadow-md p-6 hover:-translate-y-1 transition h-50">
-                        <h3 class="text-2xl font-bold mb-2">Mathematics 2&1</h3>
-                        <p class="text-gray-500 mb-4">BECE • Jun2023</p>
-                        
-                        <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-4">
-                            <a href="/past-papers-pdfs/BECE-Mathematics-Past-Question-2023.pdf" target="_self" class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold text-center hover:border-2 hover:border-[#010912]">View PDF</a>
-                            <a href="/past-papers-pdfs/BECE-Mathematics-Past-Question-2023.pdf" download class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold hover:border-2 text-center hover:border-[#010912]">Download PDF</a>
-                        </div>
-                        
-                    </div>
-                    
-                    <div class="bg-white rounded-xl shadow-md p-6 hover:-translate-y-1 transition h-50">
-                        <h3 class="text-2xl font-bold mb-2">English Language</h3>
-                        <p class="text-gray-500 mb-4">BECE • 2025</p>
-                        
-                        <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-4">
-                            <a href="/past-papers-pdfs/BECE-Mathematics-Past-Question-2023.pdf" target="_self" class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold text-center hover:border-2 hover:border-[#010912]">View PDF</a>
-                            <a href="/past-papers-pdfs/BECE-Mathematics-Past-Question-2023.pdf" download class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold hover:border-2 text-center hover:border-[#010912]">Download PDF</a>
-                        </div>
-                    </div>
-                    
-                    <div class="bg-white rounded-xl shadow-md p-6 hover:-translate-y-1 transition h-50">
-                        <h3 class="text-2xl font-bold mb-2">ICT</h3>
-                        <p class="text-gray-500 mb-4">BECE • June2023</p>
-                        
-                        <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-4">
-                            <a href="/past-papers-pdfs/BECE-ICT-Past-Question-2023.pdf" target="_self" class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold text-center hover:border-2 hover:border-[#010912]">View PDF</a>
-                            <a href="/past-papers-pdfs/BECE-ICT-Past-Question-2023.pdf" download class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold hover:border-2 text-center hover:border-[#010912]">Download PDF</a>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div> -->
-
-        <!-- Past Papers Div -->
-        <div class="px-6 md:px-10 py-10">
-
-            <div class="max-w-7xl mx-auto">
-
-                <h2 class="text-4xl font-bold text-center mb-12">
-                    Available Papers
-                </h2>
-
-                <div id="papers-container"
-                    class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                </div>
-
-                <div id="no-results"
-                    class="hidden text-center py-12">
+            <!-- Past Paper Hero -->
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-6 px-6 lg:text-lg text-sm   lg:px-20 py-10 pt-20 lg:py-50 "> 
+                <div class="max-w-7xl mx-auto text-center">
         
-                    <h3 class="text-2xl font-bold text-red-500 mb-3">
-                        No Papers Found
-                    </h3>
+                    <h1 class="text-4xl lg:text-6xl font-bold text-white mb-6">
+                        Past Examination Papers
+                    </h1>
         
-                    <p class="text-gray-500">
-                        Try searching for another subject, year or exam type.
+                    <p class="text-gray-300 text-lg max-w-3xl mx-auto mb-8">
+                        Access NPSE, BECE and WASSCE past papers to strengthen your preparation. <br> <span class="text-[#FEB316] italic">Boost your examination success.</span> 
                     </p>
         
                 </div>
+        
             </div>
-
         </div>
 
-        
-    </main>
-    
-    <footer>
-        <!-- Copyright -->
-        <div class="bg-[#000814] border-t border-gray-800 py-5 mt-1">
-    
-            <p class="text-center text-gray-400 text-sm">© 2026 Smart Kit. All Rights Reserved.</p>
-        </div> 
+        <main>
 
-    </footer>
+            <!-- Search Div -->
+            <div class="px-6 md:px-10 py-12">
 
-    <script>
+                <div class="max-w-5xl mx-auto">
 
-        const menuBtn = document.getElementById("menu-button");
+                    <div class="bg-gray-100 shadow-lg rounded-xl p-6 flex flex-col lg:flex-row gap-4">
 
-        const mobileMenu =
-        document.getElementById("mobile-menu");
+                        <input
+                            type="search"
+                            placeholder="Search subject or year..."
+                            id="searchInput"
+                            class="border border-gray-300 rounded-lg px-5 py-3 w-full focus:outline-none focus:border-[#FEB316]">
 
-        menuBtn.addEventListener("click", () => {
-
-            mobileMenu.classList.toggle("hidden");
-
-        });
-
-        const papers = [
-
-        {
-            subject: "Agricultural Science 2",
-            exam: "WASSCE",
-            year: "Nov 2011",
-            file: "/past-papers-pdfs/waec-agricultural-science-november-2011-paper2.pdf",
-            featured: true
-        },
-
-        {
-            subject: "Chemistry 2",
-            exam: "WASSCE",
-            year: "Nov 2000",
-            file: "/past-papers-pdfs/waec_Chemistry2_November_2000.pdf",
-            featured: true
-        },
-
-        {
-            subject: "Integrated Science",
-            exam: "BECE",
-            year: "2014-2017",
-            file: "/past-papers-pdfs/2014-2017integratedscience.pdf",
-            featured: true
-        },
-
-        {
-            subject: "Mathematics 2 & 1",
-            exam: "BECE",
-            year: "2023",
-            file: "/past-papers-pdfs/BECE-Mathematics-Past-Question-2023.pdf",
-            featured: true
-        },
-
-        {
-            subject: "Agricultural Science 2",
-            exam: "WASSCE",
-            year: "Nov2000",
-            file: "/past-papers-pdfs/waec-agricultural-science-november-2000-paper2.pdf",
-            featured: true
-        },
-
-        {
-            subject: "ICT",
-            exam: "BECE",
-            year: "2023",
-            file: "/past-papers-pdfs/BECE-ICT-Past-Question-2023.pdf",
-            featured: true
-        },
-
-        {
-            subject: "Mathematics 2 & 1",
-            exam: "WASSCE",
-            year: "June2024",
-            file: "/past-papers-pdfs/BECE-Mathematics-Past-Question-2024.pdf",
-            featured: false
-        },
-
-        {
-            subject: "Integrated Science",
-            exam: "WASSCE",
-            year: "2021",
-            file: "/past-papers-pdfs/2021-BECE-INT.-SCIENCE.pdf",
-            featured: false
-        }
-
-        ];
-
-        const papersContainer =
-        document.getElementById("papers-container");
-
-        function displayPapers(papersList){
-
-            papersContainer.innerHTML = "";
-
-            papersList.forEach(paper => {
-
-                papersContainer.innerHTML += `
-
-                <div class="bg-white rounded-xl shadow-md p-6 hover:-translate-y-1 transition h-50">
-
-                    <h3 class="text-2xl font-bold mb-2">
-                        ${paper.subject}
-                    </h3>
-
-                    <p class="text-gray-500 mb-4">
-                        ${paper.exam} • ${paper.year}
-                    </p>
-
-                    <div class="grid grid-cols-2 gap-4">
-
-                        <a href="${paper.file}"
-                            target="_self"
-                            class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold text-center hover:border-2 hover:border-[#010912]">
-
-                            View PDF
-
-                        </a>
-
-                        <a href="${paper.file}"
-                            download
-                            class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold text-center hover:border-2 hover:border-[#010912]">
-
-                            Download PDF
-
-                        </a>
+                        <button class="bg-[#FEB316] px-8 py-3 rounded-lg font-semibold">
+                            Search
+                        </button>
 
                     </div>
 
                 </div>
+            </div>
 
-                `;
+            <!-- Past Papers Div -->
+            <div class="px-6 md:px-10 py-10">
+
+                <div class="max-w-7xl mx-auto">
+
+                    <h2 class="text-4xl font-bold text-center mb-12">
+                        Available Papers
+                    </h2>
+
+                    <div id="papers-container"
+                        class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    </div>
+
+                    <div id="no-results"
+                        class="hidden text-center py-12">
+            
+                        <h3 class="text-2xl font-bold text-red-500 mb-3">
+                            No Papers Found
+                        </h3>
+            
+                        <p class="text-gray-500">
+                            Try searching for another subject, year or exam type.
+                        </p>
+            
+                    </div>
+                </div>
+
+            </div>
+
+            
+        </main>
+        
+        <footer>
+            <!-- Copyright -->
+            <div class="bg-[#000814] border-t border-gray-800 py-5 mt-1">
+        
+                <p class="text-center text-gray-400 text-sm">© 2026 Smart Kit. All Rights Reserved.</p>
+            </div> 
+
+        </footer>
+
+        <script>
+
+            const menuBtn = document.getElementById("menu-button");
+
+            const mobileMenu =
+            document.getElementById("mobile-menu");
+
+            menuBtn.addEventListener("click", () => {
+
+                mobileMenu.classList.toggle("hidden");
 
             });
 
-        }
+            const papers = [
 
-        displayPapers(papers);
+            {
+                subject: "Agricultural Science 2",
+                exam: "WASSCE",
+                year: "Nov 2011",
+                file: "/past-papers-pdfs/waec-agricultural-science-november-2011-paper2.pdf",
+                featured: true
+            },
 
-        const searchInput =
-        document.getElementById("searchInput");
+            {
+                subject: "Chemistry 2",
+                exam: "WASSCE",
+                year: "Nov 2000",
+                file: "/past-papers-pdfs/waec_Chemistry2_November_2000.pdf",
+                featured: true
+            },
 
-        const noResults =
-        document.getElementById("no-results");
+            {
+                subject: "Integrated Science",
+                exam: "BECE",
+                year: "2014-2017",
+                file: "/past-papers-pdfs/2014-2017integratedscience.pdf",
+                featured: true
+            },
 
-        const featuredPapers =
-        papers.filter(paper => paper.featured);
+            {
+                subject: "Mathematics 2 & 1",
+                exam: "BECE",
+                year: "2023",
+                file: "/past-papers-pdfs/BECE-Mathematics-Past-Question-2023.pdf",
+                featured: true
+            },
 
-        displayPapers(featuredPapers);
+            {
+                subject: "Agricultural Science 2",
+                exam: "WASSCE",
+                year: "Nov2000",
+                file: "/past-papers-pdfs/waec-agricultural-science-november-2000-paper2.pdf",
+                featured: true
+            },
 
-        searchInput.addEventListener("keyup", () => {
+            {
+                subject: "ICT",
+                exam: "BECE",
+                year: "2023",
+                file: "/past-papers-pdfs/BECE-ICT-Past-Question-2023.pdf",
+                featured: true
+            },
 
-            const searchValue =
-            searchInput.value.toLowerCase().trim();
+            {
+                subject: "Mathematics 2 & 1",
+                exam: "WASSCE",
+                year: "June2024",
+                file: "/past-papers-pdfs/BECE-Mathematics-Past-Question-2024.pdf",
+                featured: false
+            },
 
-            // Show featured papers when search box is empty
-            if(searchValue === ""){
-
-                displayPapers(featuredPapers);
-
-                noResults.classList.add("hidden");
-
-                return;
+            {
+                subject: "Integrated Science",
+                exam: "WASSCE",
+                year: "2021",
+                file: "/past-papers-pdfs/2021-BECE-INT.-SCIENCE.pdf",
+                featured: false
             }
 
-            const filteredPapers =
-            papers.filter(paper =>
+            ];
 
-                paper.subject.toLowerCase().includes(searchValue) ||
+            const papersContainer =
+            document.getElementById("papers-container");
 
-                paper.exam.toLowerCase().includes(searchValue) ||
+            function displayPapers(papersList){
 
-                paper.year.toLowerCase().includes(searchValue)
+                papersContainer.innerHTML = "";
 
-            );
+                papersList.forEach(paper => {
 
-            displayPapers(filteredPapers);
+                    papersContainer.innerHTML += `
 
-            if(filteredPapers.length === 0){
+                    <div class="bg-white rounded-xl shadow-md p-6 hover:-translate-y-1 transition h-50">
 
-                noResults.classList.remove("hidden");
+                        <h3 class="text-2xl font-bold mb-2">
+                            ${paper.subject}
+                        </h3>
 
-            } else {
+                        <p class="text-gray-500 mb-4">
+                            ${paper.exam} • ${paper.year}
+                        </p>
 
-                noResults.classList.add("hidden");
+                        <div class="grid grid-cols-2 gap-4">
+
+                            <a href="${paper.file}"
+                                target="_self"
+                                class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold text-center hover:border-2 hover:border-[#010912]">
+
+                                View PDF
+
+                            </a>
+
+                            <a href="${paper.file}"
+                                download
+                                class="inline-block bg-[#FEB316] px-5 py-2 rounded-lg font-semibold text-center hover:border-2 hover:border-[#010912]">
+
+                                Download PDF
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    `;
+
+                });
 
             }
 
-        });
-    </script>
+            displayPapers(papers);
 
-</body>
-</html>
+            const searchInput =
+            document.getElementById("searchInput");
+
+            const noResults =
+            document.getElementById("no-results");
+
+            const featuredPapers =
+            papers.filter(paper => paper.featured);
+
+            displayPapers(featuredPapers);
+
+            searchInput.addEventListener("keyup", () => {
+
+                const searchValue =
+                searchInput.value.toLowerCase().trim();
+
+                // Show featured papers when search box is empty
+                if(searchValue === ""){
+
+                    displayPapers(featuredPapers);
+
+                    noResults.classList.add("hidden");
+
+                    return;
+                }
+
+                const filteredPapers =
+                papers.filter(paper =>
+
+                    paper.subject.toLowerCase().includes(searchValue) ||
+
+                    paper.exam.toLowerCase().includes(searchValue) ||
+
+                    paper.year.toLowerCase().includes(searchValue)
+
+                );
+
+                displayPapers(filteredPapers);
+
+                if(filteredPapers.length === 0){
+
+                    noResults.classList.remove("hidden");
+
+                } else {
+
+                    noResults.classList.add("hidden");
+
+                }
+
+            });
+        </script>
+
+    </body>
+    </html>
